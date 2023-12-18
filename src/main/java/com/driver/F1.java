@@ -54,4 +54,20 @@ public class F1 extends Car {
             changeGear(6);
         }
     }
+
+    @Override
+    public String getName() {
+        return super.getName();
+    }
+
+    @Override
+    public boolean isManual() {
+        return super.isManual();
+    }
+
+    @Override
+    public int getCurrentGear() {
+        return super.getCurrentGear();
+    }
+
 }
